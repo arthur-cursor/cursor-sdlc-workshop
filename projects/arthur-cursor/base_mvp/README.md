@@ -1,23 +1,23 @@
-# Base MVP
+# Pythagoras Practice (Base MVP)
 
-This folder is where your project code lives.
+Small **Express + EJS** site to practise the Pythagorean theorem (integer triples).
 
-## What to Build
-- A minimal, working version of your project
-- Should run locally and do *something* visible
-- Keep it simple — 10 minutes max!
+## Run locally
 
-### Good Examples
-- A Chrome extension with one button that does one thing
-- A web page with basic HTML/CSS/JS
-- A simple CLI script
+```bash
+cd projects/arthur-cursor/base_mvp
+npm install
+npm start
+```
 
-### Instructions
+Open **http://localhost:3000** (or set `PORT`).
 
-1. Tell Cursor to read the `prd.md` in your project folder
-2. Tell Cursor to generate the base MVP here
-3. Tell Cursor to run it locally and verify it works
+Development with auto-restart (Node 18+):
 
-### After You're Done
+```bash
+npm run dev
+```
 
-> **Ask Cursor:** "Commit all my changes with the message 'Base MVP scaffold', push to my fork, and open a PR to the original repo"
+## Optional
+
+- `SESSION_SECRET` — set in production for session cookies.

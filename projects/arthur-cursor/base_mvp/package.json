@@ -1,0 +1,19 @@
+{
+  "name": "pythagoras-practice",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Pythagorean theorem practice — Express + EJS",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}
